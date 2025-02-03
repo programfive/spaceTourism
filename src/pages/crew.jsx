@@ -6,7 +6,7 @@ export function Crew() {
   const [value, setValue] = useState(0);
   const { name, images, role, bio } = persons[value];
   return (
-    <div className="w-full h-[100vh] tablet:h-auto bg-crewDesktop tablet:bg-crewTablet mobile:bg-crewMobile  bg-no-repeat bg-cover bg-center flex justify-center items-end ">
+    <div className="w-full min-h-screen tablet:h-auto bg-crewDesktop tablet:bg-crewTablet mobile:bg-crewMobile  bg-no-repeat bg-cover bg-center flex justify-center items-end ">
       <div className=" w-full max-w-[1200px] mt-40">
         <div className="font-normal mainText text-center  gap-x-4  tracking-[4.725px]  flex text-2xl text-white p-6 mobile:justify-center mobile::items-center">
           <span className="font-bold mobile:hidden">02</span>

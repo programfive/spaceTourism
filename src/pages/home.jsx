@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export function Home() {
   return (
-    <div className="w-full  flex  items-center h-[100vh] tablet:h-auto bg-HomeDesktop tablet:bg-HomeTablet mobile:bg-HomeMobile bg-no-repeat bg-cover bg-center  ">
+    <div className="w-full min-h-screen flex  items-center h-[100vh] tablet:h-auto bg-HomeDesktop tablet:bg-HomeTablet mobile:bg-HomeMobile bg-no-repeat bg-cover bg-center  ">
       <div className=" flex  justify-between items-center gap-y-6 tablet:flex-col tablet:justify-center  w-full max-w-[1200px] m-auto p-5 extraMobile:pb-10 extraMobile:pt-28 mt-52 ">
         <section className=" w-full max-w-[520px] p-2 tablet:text-center">
           <p className="font-normal text-[1.8rem] extraMobile:text-[1.6rem] tracking-[4.725px] mainText text-grayText ">

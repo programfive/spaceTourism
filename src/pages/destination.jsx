@@ -6,7 +6,7 @@ export function Destination() {
   const [value, setValue] = useState(0);
   const { name, images, description, distance, travel } = planets[value];
   return (
-    <div className="w-full h-[100vh] tablet:h-auto bg-destinationDesktop tablet:bg-destinationTablet mobile:bg-destinationMobile bg-no-repeat bg-center bg-cover flex items-center ">
+    <div className="w-full min-h-screen tablet:h-auto bg-destinationDesktop tablet:bg-destinationTablet mobile:bg-destinationMobile bg-no-repeat bg-center bg-cover flex items-center ">
       <div className=" max-w-[1200px] m-auto w-[90%] mt-40 p-5 ">
         <div className="mb-5 font-normal mainText  gap-x-4  tracking-[4.725px]  flex text-2xl text-white p-4 mobile:text-center">
           <span className="font-bold mobile:hidden">01</span>

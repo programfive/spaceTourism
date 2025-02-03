@@ -6,7 +6,7 @@ export function Technology() {
   const [value, setValue] = useState(0);
   const { name, images, description } = technologies[value];
   return (
-    <div className=" h-[100vh] tablet:h-[100%] bg-technologyDesktop tablet:bg-technologyTablet mobile:bg-technologyMobile w-100 flex items-center justify-center bg-no-repeat bg-cover bg-center">
+    <div className=" min-h-screen tablet:h-[100%] bg-technologyDesktop tablet:bg-technologyTablet mobile:bg-technologyMobile w-100 flex items-center justify-center bg-no-repeat bg-cover bg-center">
       <div className=" mt-40 tablet:mt-40 max-w-[1400px] w-full ">
         <div className="font-normal mainText text-center  gap-x-4  tracking-[4.725px]  flex text-2xl text-white p-6 mobile:justify-center mobile::items-center">
           <span className="font-bold mobile:hidden">02</span>
